@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "rarity": 15,
+      "img": "item01.png"
+    },{
+      "rarity": 30,
+      "img": "item02.png"
+    },{
+      "rarity": 40,
+      "img": "item03.png"
+    },{
+      "rarity": 50,
+      "img": "item04.png"
+    },{
+      "rarity": 60,
+      "img": "item05.png"
+    },{
+      "rarity": 70,
+      "img": "item06.png"
+    },{
+      "rarity": 80,
+      "img": "item07.png"
+    },{
+      "rarity": 90,
+      "img": "item08.png"
+    }
+  ]
+}

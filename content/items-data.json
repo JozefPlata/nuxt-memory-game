@@ -1,28 +1,28 @@
 {
   "items": [
     {
-      "rarity": 15,
+      "rarity": 1,
       "img": "item01.png"
     },{
-      "rarity": 30,
+      "rarity": 3,
       "img": "item02.png"
     },{
-      "rarity": 40,
+      "rarity": 4,
       "img": "item03.png"
     },{
-      "rarity": 50,
+      "rarity": 5,
       "img": "item04.png"
     },{
-      "rarity": 60,
+      "rarity": 6,
       "img": "item05.png"
     },{
-      "rarity": 70,
+      "rarity": 7,
       "img": "item06.png"
     },{
-      "rarity": 80,
+      "rarity": 8,
       "img": "item07.png"
     },{
-      "rarity": 90,
+      "rarity": 9,
       "img": "item08.png"
     }
   ]

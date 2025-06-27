@@ -1,4 +1,4 @@
-import {type Engine, type WebGPUEngine} from "@babylonjs/core";
+import type {Engine, WebGPUEngine} from "@babylonjs/core";
 import type {ItemsDataT} from "~/babylon/App";
 import seedrandom from "seedrandom";
 
@@ -8,7 +8,6 @@ export class GM {
     private _engine!: Engine | WebGPUEngine;
     private _seedPhrase: string = "0123456789";
     private _itemsData!: ItemsDataT[];
-    private _seed: () => number = seedrandom(this._seedPhrase);
 
     private constructor() {}
 
@@ -23,4 +22,6 @@ export class GM {
     set itemsData(data: ItemsDataT[]) { this._itemsData = data }
 
     get itemsData(): ItemsDataT[] { return this._itemsData }
+
+    get seed(): number { return seedrandom(this._seedPhrase)() }
 }
